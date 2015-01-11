@@ -104,6 +104,12 @@ git log --before="2015-11-01"
 
 *************************************************
 
+*************************************************
+git remote
+*************************************************
+Povezovanje lokalnega repozitorija z serverjem na github
+git remote add origin https://github.com/mitja-petan/Playground.git
+
 
 *************************************************
 Vim Editor
