@@ -1,0 +1,4 @@
+Git commands:
+
+Pokaže vse spremembe v eni vrstici
+git log --pretty=oneline
