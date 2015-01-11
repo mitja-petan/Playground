@@ -110,6 +110,9 @@ git remote
 Povezovanje lokalnega repozitorija z serverjem na github
 git remote add origin https://github.com/mitja-petan/Playground.git
 
+Izpis seznama serverjev
+git remote -v
+
 *************************************************
 git push
 *************************************************
