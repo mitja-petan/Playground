@@ -22,6 +22,9 @@ git config --global user.editor "vim"
 Pokaži vse spremembe v configu
 git config --list
 
+Naredi alias za commit namesto zdaj da pišeš commit lahko napišeš samo co
+git config --global alias.co commit
+
 *************************************************
 git help
 *************************************************
@@ -117,6 +120,12 @@ git push
 uplodaj spremembe na server
 git push origin master
 
+Èe želimo uploadat tag
+git push origin 0.0.3
+
+Èe želimo dati na server vse tage
+git push origin --tags
+
 *************************************************
 git fetch
 *************************************************
@@ -146,7 +155,11 @@ git show
 Pokaži spremembe, ki jih prinese tag
 git show v0.2
 
-
+*************************************************
+git clone
+*************************************************
+Kopiranje repozitorija na lokalni disk potem ko si naredil fork
+git clone https://github.com/mitja-petan/2048.git
 
 *************************************************
 Vim Editor
