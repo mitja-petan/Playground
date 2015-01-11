@@ -1,4 +1,43 @@
 Git commands:
 
+
+*************************************************
+git add
+*************************************************
+Dodajanje fajla v staging
+git add git_commands.txt
+
+
+*************************************************
+git log
+*************************************************
+
 Pokaže vse spremembe v eni vrstici
 git log --pretty=oneline
+
+Moj zdefiniran pregled loga 
+%h skrajšana oblika hash taga
+%an oseba ki je naredila spremembo
+%ar datum spremembe
+%s prva sprememba
+git log --pretty=format:"%h : %an : %ar : %s"
+
+Pokaži zadnja dva commita
+git log -p -2
+
+Pokaže skrajšano statistiko
+git log --stat
+
+Spremembe v zadnjem tednu
+git log --since=1.weeks
+
+Sprememebe na doloèen datum
+git log --since="2015-10-01"
+
+Spremembe ki sem jih naredil jaz
+git log --author="Mitja Petan"
+
+Spremembe pred doloèenim datumom
+git log --before="2015-11-01"
+
+*************************************************
