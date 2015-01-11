@@ -103,3 +103,13 @@ Spremembe pred doloèenim datumom
 git log --before="2015-11-01"
 
 *************************************************
+
+
+*************************************************
+Vim Editor
+*************************************************
+Najprej pritisni ESC
+Za pisanje komentarja pritisni tipko i
+Ko konèaš pritisni :
+Za shranjevanje wq in enter
+
