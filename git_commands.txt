@@ -110,6 +110,11 @@ git remote
 Povezovanje lokalnega repozitorija z serverjem na github
 git remote add origin https://github.com/mitja-petan/Playground.git
 
+*************************************************
+git push
+*************************************************
+uplodaj spremembe na server
+git push origin master
 
 *************************************************
 Vim Editor
