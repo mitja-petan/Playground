@@ -1,11 +1,53 @@
 Git commands:
 
+*************************************************
+clear
+*************************************************
+poèisti ekran
+clear
+
+*************************************************
+git config
+*************************************************
+Nastavitev imena uporabnika
+--global na globalni ravni
+git config --global user.name "Mitja Petan"
+
+Nastavitev emaila uporabnika
+git config --global user.email "mitja.petan@gmail.com"
+
+Nastavite default editorja za pisanje komentarjev (vim defalut editor)
+git config --global user.editor "vim"
+
+Pokaži vse spremembe v configu
+git config --list
+
+*************************************************
+git help
+*************************************************
+Pokaži pomoè
+git help
+
+Pokaži pomoè o add
+git help add
+
+*************************************************
+git init
+*************************************************
+inicializiraj novi repozitorij
+git init
 
 *************************************************
 git add
 *************************************************
 Dodajanje fajla v staging
 git add git_commands.txt
+
+Dodajanje vseh *.java fajlov
+git add *.java
+
+Dodajnje v staging vse fajle, ki so bili spremenjeni -A
+git add -A
 
 *************************************************
 git commit
@@ -15,6 +57,12 @@ git commit -m 'Random comment'
 
 popravi komentar zadnjega commit-a
 git commit --amend
+
+*************************************************
+git status
+*************************************************
+Kakšen je status fajlov
+git status
 
 *************************************************
 git reset
