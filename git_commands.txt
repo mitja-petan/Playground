@@ -3,7 +3,7 @@ Git commands:
 *************************************************
 clear
 *************************************************
-poËisti ekran
+po√®isti ekran
 clear
 
 *************************************************
@@ -19,16 +19,16 @@ git config --global user.email "mitja.petan@gmail.com"
 Nastavite default editorja za pisanje komentarjev (vim defalut editor)
 git config --global user.editor "vim"
 
-Pokaûi vse spremembe v configu
+Poka≈æi vse spremembe v configu
 git config --list
 
 *************************************************
 git help
 *************************************************
-Pokaûi pomoË
+Poka≈æi pomo√®
 git help
 
-Pokaûi pomoË o add
+Poka≈æi pomo√® o add
 git help add
 
 *************************************************
@@ -61,7 +61,7 @@ git commit --amend
 *************************************************
 git status
 *************************************************
-Kaköen je status fajlov
+Kak≈°en je status fajlov
 git status
 
 *************************************************
@@ -74,32 +74,32 @@ git reset HEAD git_commands.txt
 git log
 *************************************************
 
-Pokaûe vse spremembe v eni vrstici
+Poka≈æe vse spremembe v eni vrstici
 git log --pretty=oneline
 
 Moj zdefiniran pregled loga 
-%h skrajöana oblika hash taga
+%h skraj≈°ana oblika hash taga
 %an oseba ki je naredila spremembo
 %ar datum spremembe
 %s prva sprememba
 git log --pretty=format:"%h : %an : %ar : %s"
 
-Pokaûi zadnja dva commita
+Poka≈æi zadnja dva commita
 git log -p -2
 
-Pokaûe skrajöano statistiko
+Poka≈æe skraj≈°ano statistiko
 git log --stat
 
 Spremembe v zadnjem tednu
 git log --since=1.weeks
 
-Sprememebe na doloËen datum
+Sprememebe na dolo√®en datum
 git log --since="2015-10-01"
 
 Spremembe ki sem jih naredil jaz
 git log --author="Mitja Petan"
 
-Spremembe pred doloËenim datumom
+Spremembe pred dolo√®enim datumom
 git log --before="2015-11-01"
 
 *************************************************
@@ -117,10 +117,22 @@ uplodaj spremembe na server
 git push origin master
 
 *************************************************
+git fetch
+*************************************************
+iz serverja potegni podatke vendar ne naredi marge
+git fetch
+
+*************************************************
+git pull
+*************************************************
+iz serverja potegni vse podatke in naredi marge
+git pull https://github.com/mitja-petan/Playground.git
+
+*************************************************
 Vim Editor
 *************************************************
 Najprej pritisni ESC
 Za pisanje komentarja pritisni tipko i
-Ko konËaö pritisni :
+Ko kon√®a≈° pritisni :
 Za shranjevanje wq in enter
 
