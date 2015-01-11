@@ -103,8 +103,6 @@ Spremembe pred doloèenim datumom
 git log --before="2015-11-01"
 
 *************************************************
-
-*************************************************
 git remote
 *************************************************
 Povezovanje lokalnega repozitorija z serverjem na github
@@ -115,6 +113,24 @@ git push
 *************************************************
 uplodaj spremembe na server
 git push origin master
+
+*************************************************
+git fetch
+*************************************************
+iz serverja potegni podatke vendar ne naredi marge
+git fetch
+
+*************************************************
+git pull
+*************************************************
+iz serverja potegni vse podatke in naredi marge
+git pull https://github.com/mitja-petan/Playground.git
+
+*************************************************
+git revert
+*************************************************
+pojdi na prejšno verzijo fajla napišeš hash tag za commit, ki bi ga rad dobil nazaj
+git revert fr34gfg4
 
 *************************************************
 Vim Editor
