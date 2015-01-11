@@ -108,6 +108,9 @@ git remote
 Povezovanje lokalnega repozitorija z serverjem na github
 git remote add origin https://github.com/mitja-petan/Playground.git
 
+Èe bi želel spremeniti ime origin v kaj drugega
+git remote rename origin playground
+
 *************************************************
 git push
 *************************************************
@@ -131,6 +134,19 @@ git revert
 *************************************************
 pojdi na prejšno verzijo fajla napišeš hash tag za commit, ki bi ga rad dobil nazaj
 git revert fr34gfg4
+
+*************************************************
+git tag
+*************************************************
+git tag -a v0.2 -m 'Version 0.2'
+
+*************************************************
+git show
+*************************************************
+Pokaži spremembe, ki jih prinese tag
+git show v0.2
+
+
 
 *************************************************
 Vim Editor
