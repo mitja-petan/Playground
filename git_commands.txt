@@ -7,6 +7,20 @@ git add
 Dodajanje fajla v staging
 git add git_commands.txt
 
+*************************************************
+git commit
+*************************************************
+shranjevanje sprememb
+git commit -m 'Random comment'
+
+popravi komentar zadnjega commit-a
+git commit --amend
+
+*************************************************
+git reset
+*************************************************
+odstrani fajl iz staging-a
+git reset HEAD git_commands.txt
 
 *************************************************
 git log
