@@ -162,6 +162,22 @@ Kopiranje repozitorija na lokalni disk potem ko si naredil fork
 git clone https://github.com/mitja-petan/2048.git
 
 *************************************************
+git branch
+*************************************************
+Za kreiranje nove veje kode
+git branch imeveje ali git checkout -b imeveje
+
+*************************************************
+git checkout
+*************************************************
+Preklop med vejami
+git checkout imeveje
+
+Za kreiranje nove veje in preklop na njo
+git checkout -b imeveje
+
+
+*************************************************
 Vim Editor
 *************************************************
 Najprej pritisni ESC
