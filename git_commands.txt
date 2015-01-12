@@ -162,6 +162,31 @@ Kopiranje repozitorija na lokalni disk potem ko si naredil fork
 git clone https://github.com/mitja-petan/2048.git
 
 *************************************************
+git checkout
+*************************************************
+Èe želimo prenesti nek branch iz serverja
+-b pomeni naredi novi branch
+develop branch poimenuj kot develop
+origin/develop pa pomeni vzemi iz serverja origin branch develop
+
+git checkout -b develop origin/develop
+
+*************************************************
+git branch
+*************************************************
+Seznam vej
+git branch
+
+Seznam vseh vej, ki so bile združene merged
+git branch --merged
+
+Seznam vseh vej, ki niso združene
+git branch --no-marged
+
+Seznam vsek vej in njihov zadnji komit
+git branch -v
+
+*************************************************
 Vim Editor
 *************************************************
 Najprej pritisni ESC
