@@ -126,6 +126,9 @@ git push origin 0.0.3
 Èe želimo dati na server vse tage
 git push origin --tags
 
+Èe želimo izbrisati branch na serverju
+git push origin :develop
+
 *************************************************
 git fetch
 *************************************************
@@ -167,29 +170,6 @@ git branch
 Za kreiranje nove veje kode
 git branch imeveje ali git checkout -b imeveje
 
-*************************************************
-git checkout
-*************************************************
-Preklop med vejami
-git checkout imeveje
-
-Za kreiranje nove veje in preklop na njo
-git checkout -b imeveje
-
-
-*************************************************
-git checkout
-*************************************************
-Èe želimo prenesti nek branch iz serverja
--b pomeni naredi novi branch
-develop branch poimenuj kot develop
-origin/develop pa pomeni vzemi iz serverja origin branch develop
-
-git checkout -b develop origin/develop
-
-*************************************************
-git branch
-*************************************************
 Seznam vej
 git branch
 
@@ -201,6 +181,35 @@ git branch --no-marged
 
 Seznam vsek vej in njihov zadnji komit
 git branch -v
+
+Brisanje branchov, ki so bili zmrðani
+git branch -d imebrancha
+
+Brisanje branchov, ki niso bili zmrðani
+git branch -D imebrancha
+
+Brisanje brancha iz serverja
+git push origin :develop
+
+Preimenovanje brancha na katerem si trenutno
+git branch -m novoimebrancha
+
+*************************************************
+git checkout
+*************************************************
+Preklop med vejami
+git checkout imeveje
+
+Za kreiranje nove veje in preklop na njo
+git checkout -b imeveje
+
+Èe želimo prenesti nek branch iz serverja
+-b pomeni naredi novi branch
+develop branch poimenuj kot develop
+origin/develop pa pomeni vzemi iz serverja origin branch develop
+
+git checkout -b develop origin/develop
+
 
 *************************************************
 Vim Editor
