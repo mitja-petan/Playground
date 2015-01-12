@@ -210,6 +210,50 @@ origin/develop pa pomeni vzemi iz serverja origin branch develop
 
 git checkout -b develop origin/develop
 
+*************************************************
+git rebase
+*************************************************
+Èe želimo v našem trenutnem branchu dobiti že zmrðane sprememeb ki si zdaj v masterju v naš branè
+git rebase master
+
+*************************************************
+git revert
+*************************************************
+premakneš se nazaj na prejšni commit vendar trenutni komit postane prejšnji in je še vedno dostopen
+git revert HEAD
+
+*************************************************
+git reset (bad practice)
+*************************************************
+èe želiš izbrisati commit, ki si ga naredil
+
+prideš na prejšno verzijo fajla
+git reset filename 
+
+Celoten staging area resetiraš na prejšno verzijo (working direktorij se ne spremeni)
+git reset
+
+Èe želiš nazaj na doloèen komit (working direktorij se ne spremeni)
+git reset commit
+
+Celoten staging area resetiraš na prejšno verzijo in working direktorij
+git reset --hard
+
+Èe želiš nazaj na doloèen komit in spremeniti trenutno delo
+git reset --hard commit
+
+*************************************************
+git clean
+*************************************************
+dobi seznam fajlov ki niso v git repozitoriju
+git clean -n
+
+odstrani fajle, ki niso v gitu (se ne trackajo)
+git clean -f
+
+odstrani fajle in direktorije
+git clean -df
+
 
 *************************************************
 Vim Editor
