@@ -254,6 +254,20 @@ git clean -f
 odstrani fajle in direktorije
 git clean -df
 
+*************************************************
+ssh-keygen
+*************************************************
+generiranje kljuèa, zato da poveš da je zaupanja vreden raèunalnik in ne rabiš ob vsakem pushu vpisovati gesla
+
+ssh-keygen -t rsa -C "mitja.petan@gmail.com"
+Napiši ime kljuèa .. mitjapetan
+
+
+Zaženi agenta
+eval $(ssh-agent)
+
+dodaj kljuè
+ssh-add mitjapetan.pub
 
 *************************************************
 Vim Editor
